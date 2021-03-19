@@ -5,27 +5,73 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifólio Web Davi Marques</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Permanent+Marker&display=swap" rel="stylesheet">
+    <style>
+        body{background-image: url(scg-canvas-background-animation-24.jpg);
+
+        }
+        .button {
+      background-color: #11a36a;
+      color: white;
+      padding: 15px 73px;
+      border-radius: 4px;
+      font-weight: 700;
+      text-decoration: none;}
+      .button2 {
+      background-color: rgb(0, 0, 0);
+      color: white;
+      padding: 15px 80px;
+      border-radius: 4px;
+      font-weight: 700;
+      text-decoration: none;}
+      .circled {
+      border-radius: 100%;
+    }
+    .description{background-color:rgb(205, 97, 85);
+      padding: 40px 70px;
+    }
+    .list{background-color: rgb(247, 220, 111);
+    padding:40px 70px;
+
+    }
+    p, li{font-size: large;font-family: 'Indie Flower', cursive;
+}
+h1, h2{font-family: 'Permanent Marker', cursive;font-size: 30pt;
+}
+.olivas2{
+    margin-left: 80px;font-size: xx-large; font-weight: bolder;
+}
+.ptitle{
+    text-align: center;
+}
+    </style>
 </head>
 <body>
     <!--Titulo-->
-    <h1>Portifólio web de Davi Marques</h1>
+    <h1 class="ptitle">Portifólio web de Davi Marques</h1>
     <!-- imagem-->
-    <img src="eu.jpg" alt="Foto de um Davi" width="400px" id="foto" >
+  <p> <img class ="circled"src="IMG_20210212_025810_034_2.jpg" align="left" alt="Foto de um Davi" width="250px" height="250px"id="foto" >
+    <br><br><em class="olivas2"> "Programar é  igual fazer uma obra de arte" <br>
+                                   <p class="olivas2">Gabriel Oliva</p> </em>         </p> 
+                   <br><br><br><br><br>
     <!--Uma breve descrição sobre você, destacando algumas informações como nacionalidade e a cidade/estado onde mora;
 -->
-<h2><strong> Descrição </strong></h2>
-<p><em>Nasci na cidade de Santos, litoral de São Paulo, porem morei quase minha vida inteira em Bertioga. 
+<h2 class="description"><strong> Descrição </strong></h2>
+<p class="description"><em>Nasci na cidade de Santos, litoral de São Paulo, porem morei quase minha vida inteira em Bertioga. 
 Sempre me interesei por tecnólogia e agora junto com Trybe
  espero conseguir me tornar um dev no futuro</em> </p>
  <!--Lista de Habilidades-->
- <h2><strong>Lista de Habilidades</strong></h2>
- <li>Dedicado</li>
- <li>Estudioso</li>
- <li>Curioso</li>
- <li>comunicativo</li>
+ <h2 class="list"><strong>Lista de Habilidades</strong></h2>
+ <li class="list">Dedicado</li>
+ <li class="list" >Estudioso</li>
+ <li class="list">Curioso</li>
+ <li class="list">comunicativo</li>
   <br> <br>
- <a href="https://app.betrybe.com/course/" target="_blank"> Trybe </a>
+ <a class= "button" href="https://app.betrybe.com/course/" target="_blank"> Trybe </a>
   <br> <br>
- <a href="#foto" > foto </a>
+ <a class = "button2" href="#foto" > foto </a>
 </body>
 </html>
